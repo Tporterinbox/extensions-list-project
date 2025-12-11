@@ -1,4 +1,4 @@
-/* GLOBAL RESET */
+/* For GLOBAL RESET */
 * {
   margin: 0;
   padding: 0;
@@ -67,16 +67,12 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 3px;
-  /* display: flex;
-  flex-wrap: wrap; 
-  justify-content: flex-start; */
-
 }
 
 
-/* Remove hover border from old version */
+
 .card:hover {
-  /* transform: translateY(-4px); */
+
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
@@ -140,9 +136,8 @@ button.remove-btn:hover {
 .card-actions {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* or "flex-start" if you want them side-by-side */
-   /* gap: 12px;
-  margin-top: 10px; */
+  justify-content: space-between; /* or "flex-start" makes cards side-by-side */
+  
 } 
 
 /* ----------------------------------- */
@@ -160,15 +155,13 @@ button.remove-btn:hover {
   padding: 20px;                      /* inner spacing */
   border-radius: 14px;                /* rounded corners */
   border: 0.1px solid white;            /* white border */
-  /* box-shadow: 0 4px 12px rgba(0,0,0,0.18); */
-  /* transition: 0.2s ease; */
   display: flex;
   flex-direction: column;
   gap: 32px;
   width: 370px;   
   margin: 8px;  
   margin-left: 1px;
-/* margin-right: 40px; */
+
          
 }
 
